@@ -1,0 +1,4 @@
+User-agent: *
+      Host: 1iqos.by
+      Sitemap: https://1iqos.by/sitemap.xml
+Disallow: /404
