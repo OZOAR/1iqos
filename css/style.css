@@ -148,22 +148,37 @@ p {
     padding-right: 5px;
     padding-left: 5px;
 }
-.bread-crumb{
-    float: right;
+
+.isDisabled {
+  color: currentColor;
+  cursor: default;
+  opacity: 0.5;
+  text-decoration: none;
 }
-.breadcrumb-item a{
+.bold1245 {
+    font-family: P22-Demi;
+    font-weight: 500;
+}
+.breadcrumb{
+    font-size: 15px;
+    display: inline-block !important;
+    height: auto ;
+    width: auto !important;
+    margin-left: -3%;
+    background-color: white !important;
+    border-bottom: green 1px solid;
+    border-radius: 0 !important;
+}
+.breadcrumb a{
     color:#222222;
 }
-.breadcrumb-item a:active {
+.breadcrumb a:active {
     color: #207a34;
    }
-   .breadcrumb-item a:hover {
+.breadcrumb a:hover {
     color: #207a34;
    }
-.breadcrumb{
-    background-color: white !important;
 
-}
 .btn{
     color: #ffffff !important;
     background: #207a34;
@@ -1163,8 +1178,42 @@ box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.75);
 .iqos2 .description {
     font: 1.4em P22-Book;
     color: #222222;
+    font-size: 14px;
+    margin-top: -15%
 }
-input::-webkit-input-placeholder       {opacity: 1 !important; transition: opacity 0.3s ease !important;}
+.specifications > ul{
+    font: 1.4em P22-Book;
+    color: #222222;
+    font-size: 15px;
+}
+.specifications > ul > li{
+    font: 1.4em P22-Book;
+    color: #222222;
+    font-size: 13px;
+    margin-left: -3%;
+    padding-top: 12px;
+}
+
+.specifications >ul > li::before{
+    content: '✓';
+    position: absolute;
+    margin-left: 30px;
+	padding-left: 3px;	
+	/* padding-bottom: 5px; */
+	padding-top: 0px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #207a34;
+    width: 20px;
+    height: 20px; 
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid #207a34;
+    margin-left: -1.7em; 
+}
+
+    input::-webkit-input-placeholder       {opacity: 1 !important; transition: opacity 0.3s ease !important;}
     input::-moz-placeholder                {opacity: 1 !important; transition: opacity 0.3s ease !important;}
     input:-moz-placeholder                 {opacity: 1 !important; transition: opacity 0.3s ease !important;}
     input:-ms-input-placeholder            {opacity: 1 !important; transition: opacity 0.3s ease !important;}
@@ -1172,3 +1221,48 @@ input::-webkit-input-placeholder       {opacity: 1 !important; transition: opaci
     input:focus::-moz-placeholder          {opacity: 0 !important; transition: opacity 0.3s ease !important;}
     input:focus:-moz-placeholder           {opacity: 0 !important; transition: opacity 0.3s ease !important;}
     input:focus:-ms-input-placeholder      {opacity: 0 !important; transition: opacity 0.3s ease !important;}
+
+.slideshow-container{
+    position: relative;
+    width: 280px;
+    height: 406px;
+    max-width: 375px;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease ;
+    border-radius: 0 3px 3px 0;
+}
+.mySlides{
+    width: auto; height: auto;
+}
+.mySlides > img{
+    max-width: 180%;
+    margin-left: -40%;
+    margin-top: -20%;
+}
+.next{
+    top: 40%;
+    left: 85%;
+    border-radius: 3px 0 0 3px;
+}
+.prev{
+    top: 40%;
+}
+.prev:hover, .next:hover{
+    background-color: #d4d4d4;
+
+}
+.slideshow-container .text{
+    color: saddlebrown;
+    font-size: 12px;
+    padding: 8px 12px;;
+    position: absolute;
+    top: 0;
+}
+

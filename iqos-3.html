@@ -28,6 +28,7 @@
         <!-- End Google Tag Manager -->
         <link rel="stylesheet" href="css/main.css" media="all"/>
 <!-- Разметка JSON-LD, созданная Мастером разметки структурированных данных Google. -->
+<script>showSlides(slideIndex);</script>
 <script type="application/ld+json">
     {
         "@context" : "http://schema.org",
@@ -145,25 +146,41 @@
 </header>
 <section class="iqos2">
     <div class="container">
-        <div class=" col-lg-4 bread-crumb"> 
-            <nav aria-label="breadcrumb ">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="https://1iqos.by/index">Главная</a></li>
-                <li class="breadcrumb-item active" aria-current="page">IQos 3.0</li>
-              </ol>
-            </nav></div>
             <div class="title col-lg-4">
                     <h1>
                         IQOS 3.0 
                     </h1>
                 </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                 <img src="img/iqos3-main.png" class="img-fluid" width="80%" style="margin-left: 10%;" alt="фото iqos 3.0">
+                <div class="container">
+                    <div class="row">
+                <div class="slideshow-container col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                    <div class="mySlides">
+                        <img src="img//carouseliqos3duo/IQOS-3-DUOS-Cooper_3.png" alt="Айкос цвета Cooper" >
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/carouseliqos3duo/IQOS-3-DUOS-Blue_3.png" alt="Айкос цвета Blue" >
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/carouseliqos3duo/IQOS-3-DUOS-Gold_3.png" alt="Айкос цвета Gold" >
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/carouseliqos3duo/IQOS-3-DUOS-Grey_3.png" alt="Айкос цвета Grey">
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/carouseliqos3duo/IQOS-3-DUOS-White_3.png" alt="Айкос цвета White" >
+                    </div>
+                    <a class="next" onclick="plusSlides(1)">&#10095</a>
+                
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12">
+            <div class="col-lg-7 col-md-7 col-sm-12">
                 <div class="description">
-                        <p>
+                    <div class="description">
+                        <div class="breadcrumb">
+                              <a href="https://1iqos.by/index">Главная </a>
+                              <a class="isDisabled"> / IQOS 3.0</a>
+                        </div>  
+                    <p>
                           <b>IQOS 3.0</b> является наиболее современной версией этой электронной сигареты, что обеспечивает ей целый ряд преимуществ и делает очень популярной.
                         <br> 
                         Например, зарядка новинки занимает на 15% меньше времени, чем у предыдущей модели.
@@ -178,6 +195,20 @@
                          </p>
                     </div>
                 </div>
+                <div class="specifications">
+                    <h5>Характеристики:</h5>
+                    <ul>
+                        <li>Более быстрая зарядка держателя*. В среднем она занимает 1 минуту 50 секунд (с 0 до 1 сеанса).</li>
+                        <li>Возможность использовать держатель два раза подряд без необходимости в подзарядке.</li>
+                        <li>Прочный корпус держателя и зарядного устройства с технологией ProtectPlus™.</li>
+                        <li>Дополнительный индикатор, показывающий количество доступных сеансов (одного или двух).</li>
+                        <li>Новый лимитированный цвет и аксессуары, выпущенные специально для модели IQOS 3 DUOS.</li>
+                    </ul>
+                <div class="takein-btn">
+                    <button style="background-color: #207a34; margin-left: 3%;" data-toggle="modal" data-target="#callbackModal" type="getModal" class="btn btn-custom getModal">
+                        Получить консультацию
+                    </button>
+                </div> </div>
         </div>
     </div>
 </section>
@@ -548,6 +579,9 @@ setTimeout(explode, 40000);
 <script src="js/custom.js"></script>
 <iframe name="ym-native-frame" title="ym-native-frame" frameborder="0" aria-hidden="true" style="opacity: 0; width: 0px; height: 0px; position: absolute; left: 100%; bottom: 100%; border: 0px !important;"></iframe><ym-measure class="ym-viewport" style="display: block; top: 0px; right: 0px; bottom: 0px; left: 0px; position: fixed; transform: translate(0px, -100%); -webkit-transform: translate(0px, -100%); transform-origin: 0px 0px 0px; -webkit-transform-origin: 0px 0px 0px;"></ym-measure><ym-measure class="ym-zoom" style="bottom: 100%; position: fixed; width: 100vw;"></ym-measure>
 <script type="text/javascript" src="//api.venyoo.ru/wnew.js?wc=venyoo/default/science&widget_id=6301975432527872"></script>
+<script> 
+let timerId = setInterval(() => plusSlides(1), 2500);
+</script>
 </body>
 
 </html>

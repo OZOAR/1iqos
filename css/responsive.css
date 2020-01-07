@@ -285,4 +285,35 @@
     .img-normalizer{
         height: 198px !important;
     }
+    .mySlides > img{
+        width: 550px; height: auto;
+        overflow: auto;
+        max-width: 140%;
+        max-height: 140%;
+        margin: 0 -15%;
+        
+    }
+    .mySlides{
+    margin-left: 0;
+    }
+    .slideshow-container{
+        width:auto;
+        height: auto;
+    }
+    .row{
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .iqos2 .description{
+        padding-left: 2%;
+        font-size: 18px;
+        margin-top:5%;
+    }
+    .prev, .next{
+        top: 30%;
+    }
+    .next{
+        right: 0;
+    }
 }
